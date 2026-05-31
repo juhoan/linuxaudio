@@ -43,6 +43,7 @@ This repo describes what is needed. Also a little script is included for launchi
 
 ## Misc notes
 
+* When installing Reaper, it may be a good idea to be consistent in terms of where you install it. I prefer option [1] (Install to `/opt`).
 * Bluetooth's latency is too high for real-time playing, so you need to connect the headphones to the sound card using a cable instead.
 * Running the script leads to 5.8 ms latency which is certainly low enough for my hobby purposes. If you hear clicks and glitches, you might need to adjust the value `256` in the script to something else until you're fine or get a more powerful computer.
 * AmpliTube's UI controls seem to be rather buggy on Ubuntu. However, it seems that you can use the dials by double clicking them and then dragging the knob to the desired setting using your touchpad.
