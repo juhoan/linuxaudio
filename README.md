@@ -28,7 +28,7 @@ This repo describes what is needed. Also a little script is included for launchi
 * Scarlett Solo (3rd Gen) USB sound card
 * Electric guitar...
 * Instrument cable to connect the guitar to the sound card
-* Headphones (I'm using Bose QuietComfort 45)
+* Headphones (I'm using Sony WH-1000XM5)
 * Headphone cable(s) to connect the USB sound card to headphones
   * USB sound card output is 6.3 mm
 * USB cable for connecting sound card to laptop
@@ -46,6 +46,7 @@ This repo describes what is needed. Also a little script is included for launchi
 * When installing Reaper, it may be a good idea to be consistent in terms of where you install it. I prefer option [1] (Install to `/opt`).
 * Bluetooth's latency is too high for real-time playing, so you need to connect the headphones to the sound card using a cable instead.
 * Running the script leads to 5.8 ms latency which is certainly low enough for my hobby purposes. If you hear clicks and glitches, you might need to adjust the value `256` in the script to something else until you're fine or get a more powerful computer.
+* You should select "JACK" as the Audio system in Reapers Preferences -> Audio -> Device.
 * AmpliTube's UI controls seem to be rather buggy on Ubuntu. However, it seems that you can use the dials by double clicking them and then dragging the knob to the desired setting using your touchpad.
 * Having the AmpliTube UI visible in REAPER seems to lead to glitches in real-time use, so it is a good idea to close the UI when you are done with setting things up.
 * It may be a good idea to adjust your computer's power settings for maximum performance.
